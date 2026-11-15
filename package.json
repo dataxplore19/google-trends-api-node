@@ -1,0 +1,11 @@
+{
+  "name": "google-trends-api-node",
+  "version": "1.0.0",
+  "description": "Google Trends API for Node.js: interest over time, interest by region and trending searches to CSV.",
+  "type": "module",
+  "main": "trends.js",
+  "scripts": { "start": "node trends.js" },
+  "engines": { "node": ">=18.3" },
+  "dependencies": { "apify-client": "^2.26.0" },
+  "license": "MIT"
+}
