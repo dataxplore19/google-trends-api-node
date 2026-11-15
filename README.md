@@ -125,6 +125,8 @@ console.log(item.timeline_data.chatgpt); // { '2026-11-15': 49, ... }
 
 Prefer Python? The same tool in Python: [google-trends-api-python](https://github.com/dataxplore19/google-trends-api-python).
 
+For AI assistants (Claude, Cursor, VS Code): the [google-trends-mcp-server](https://github.com/dataxplore19/google-trends-mcp-server) MCP server. Without code, in n8n: [n8n templates](https://github.com/dataxplore19/n8n-google-trends-news-templates).
+
 ## FAQ
 
 ### Is there an official Google Trends API?
