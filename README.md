@@ -2,7 +2,7 @@
 
 Get Google Trends data in Node.js without getting blocked: interest over time, interest by region and daily trending searches, saved to CSV. A replacement for the `google-trends-api` npm package and for pytrends, which are no longer maintained and often fail with HTTP 429 errors.
 
-Google has no official public Google Trends API. This script gets the data through the [Google Trends Scraper](https://apify.com/data_xplorer/google-trends-fast-scraper) Actor on Apify. The Actor handles Google's rate limits and proxies, so your code only sends a keyword and receives JSON.
+Google has no official public Google Trends API. This script gets the data through the [Google Trends Scraper](https://apify.com/data_xplorer/google-trends-fast-scraper?fpr=6vi1cs) Actor on Apify. The Actor handles Google's rate limits and proxies, so your code only sends a keyword and receives JSON.
 
 > Click **Watch > Custom > Releases** at the top of this page to be notified when the Actor gets new features. See the [changelog](CHANGELOG.md).
 
@@ -23,7 +23,7 @@ Google has no official public Google Trends API. This script gets the data throu
 
 ## Quick start
 
-You need Node.js 18 or later and an [Apify](https://apify.com) account (the free plan includes monthly credits).
+You need Node.js 18 or later and an [Apify](https://apify.com?fpr=6vi1cs) account (the free plan includes monthly credits).
 
 ```bash
 git clone https://github.com/dataxplore19/google-trends-api-node.git
@@ -147,7 +147,7 @@ Yes. `--regions` returns interest by region of the country set with `--geo` (US 
 
 ### Can I use it from n8n, Make or another language?
 
-Yes. The Actor is a plain HTTP API. See the [API tab of the Actor](https://apify.com/data_xplorer/google-trends-fast-scraper/api) for JavaScript, cURL and other examples.
+Yes. The Actor is a plain HTTP API. See the [API tab of the Actor](https://apify.com/data_xplorer/google-trends-fast-scraper/api?fpr=6vi1cs) for JavaScript, cURL and other examples.
 
 ### Can an AI agent use it?
 
@@ -155,7 +155,7 @@ Yes. See [AGENTS.md](AGENTS.md). The Actor is also available to AI assistants th
 
 ## Disclosure
 
-I am the author of the Google Trends Scraper Actor used by this script.
+I am the author of the Google Trends Scraper Actor used by this script. Links to apify.com in this repository are referral links: if you create an Apify account through them, I may earn a commission at no cost to you.
 
 ## License
 
