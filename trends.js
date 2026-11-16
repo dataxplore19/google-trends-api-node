@@ -79,6 +79,11 @@ async function interest(keywords, opts) {
             fetchRegionalData: opts.regions,
         });
         if (!item) { console.log(`${keyword}: no data`); continue; }
+        if (item.error) {
+            // e.g. not enough Google searches for this keyword, period and country
+            console.log(`${keyword}: ${item.error}`);
+            continue;
+        }
         const series = Object.entries(item.timeline_data?.[keyword] ?? {});
         for (const [day, value] of series) timeline.push([day, keyword, value]);
         for (const r of item.region_data ?? []) regions.push([keyword, r.rank, r.region, r.value]);
